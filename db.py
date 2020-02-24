@@ -12,4 +12,4 @@ myquery = {"date" : {"$gt":datetime.datetime.now()+yesterday} }
 myresult = mycol.find(myquery)
 
 for result in myresult:
- 	print(result)
+	print(result)
